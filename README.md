@@ -9,9 +9,10 @@ conda init
 ________________________________________________________________________
 To download hg19 reference genome (canonical_exon1_hg19_protein_coding): 
 
-1.  # change into a working folder first
+1.  change into a working folder first
 mkdir -p /scratch/home/gbhogal/CS298/anno && cd $_
-# Get GENCODE v19 GTF (GRCh37/hg19). If wget URL fails, use your browser to download and scp it up.
+
+2. Get GENCODE v19 GTF (GRCh37/hg19). If wget URL fails, use your browser to download and scp it up.
 wget -O gencode.v19.annotation.gtf.gz "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.annotation.gtf.gz"
 gunzip -f gencode.v19.annotation.gtf.gz
 
